@@ -1,0 +1,88 @@
+.singlePost {
+    margin-top: 40px;
+    display: flex;
+}
+
+.singlePostWrapper {
+    flex: 9;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.singlePost-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.singlePost-img img {
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.singlePost-title {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.singlePost-author-time-update {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.singlePost-author{
+    font-size: 15px;
+    color:#f0ca83;
+}
+
+.singlePost-time-update{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.singlePost-time {
+    color:#f0ca83;
+    font-size: 15px;
+}
+
+.singlePost-update{
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.singlePost-editIcon{
+    color: teal;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.singlePost-deleteIcon{
+    color: tomato;
+}
+
+.singlePost-Article{
+    margin-top: 10px;
+    width: 95%;
+    text-align: justify;
+    line-height: 24px;
+    color: #666;
+}
+
+.singlePost-Article::first-letter{
+    font-size: 30px;
+    margin-left:20px;
+    font-weight: 600;
+}

@@ -1,0 +1,119 @@
+.login{
+    margin-top: 50px;
+    /* overflow: hidden; */
+}
+
+.login-bg-img{
+    width: 100%;
+    height: calc(100vh - 50px);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    overflow: hidden;
+}
+
+.login-bg-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.login-form{
+    position: absolute;
+    width: 350px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+.login-form-style{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.login-label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.login-form-style .input{
+    width: 100%;
+    padding:8px 5px ;
+    margin-bottom: 10px;
+    border:0.5px solid #999;
+    border-radius: 5px;
+}
+
+.checkbox input{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.forgot-password{
+    font-size: 12px;
+    color: #999;
+    cursor: pointer;
+    text-align: right;
+}
+
+.login-button{
+    background-color: #EE5684;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.login-line{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.login-line div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 0.5px solid #999;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 12px;
+}
+
+.login-line hr{
+    width: 100%;
+    position: absolute;
+}
+
+.already-user-btn{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.already-user-btn a{
+    border-bottom: 0.5px solid #999;
+}
